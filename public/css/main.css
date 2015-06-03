@@ -1,0 +1,30 @@
+body{
+    padding-top: 40px;
+}
+h1{
+    padding-top: 20px;
+}
+a, a:hover{
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+.form-signup, .form-signin{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form-control, .btn{
+    margin: 10px !important;
+}
+
+.delete_form{
+    display: inline;
+    margin: 0;
+}
+
+.go_back, .go_back:hover{
+    color: #31708f;
+    font-style: italic;
+    float: right;
+}
