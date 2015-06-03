@@ -1,5 +1,5 @@
 {{ Form::open(array('url' => 'users/signin', 'class' => 'form-signin', 'autocomplete' => 'off')) }}
-    <h2 class="form-signin-heading">Please Login</h2>
+    <h1 class="form-signin-heading">Please Login</h1>
 
     {{ Form::text('email', null, array('class' => 'form-control', 'placeholder' => 'Email')) }}
     {{ Form::password('password', array('class' => 'form-control', 'placeholder' => 'Password')) }}
